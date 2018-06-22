@@ -696,7 +696,7 @@ nav.mastnav a:focus{
         }
         .works-item a:hover{
             text-decoration: none !important;
-        background: rgba(255,255,255,.7);
+        background: rgba(255,255,255,1);
             opacity:1;
             -webkit-transition: all .4s ease-in-out;
                -moz-transition: all .4s ease-in-out;
