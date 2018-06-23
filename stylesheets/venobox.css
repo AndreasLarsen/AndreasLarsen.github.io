@@ -195,16 +195,16 @@ body{
 .vbox-close{
     cursor: pointer;
     position: fixed;
-    top: -1px;
+    top: 0px;
     right: 0;
     width: 46px;
     height: 40px;
     padding: 10px 20px 10px 0;
     display: block;
-    background: url(../images/venobox/close.gif) no-repeat #eee;
-    background-position:10px center;
+    background: url(../images/venobox/close.gif) no-repeat #fff;
+    background-position:-10px center;
     color: #fff;
-    text-indent: -100px;
+    text-indent: -10px;
     overflow: hidden;
 }
 .vbox-next, .vbox-prev{
@@ -212,8 +212,8 @@ body{
     position: fixed;
     top: 50%;
     color: #fff;
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 60px;
     margin-top: -15px;
     text-indent: -100px;
     overflow: hidden;
