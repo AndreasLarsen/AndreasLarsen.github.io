@@ -271,46 +271,7 @@ body{
     overflow: auto;
 }
 
-/* ------- Video & iFrames window ------ */
-.venoframe{
-    border: none;
-    width: 960px;
-    height: 720px;
-}
-.figlio{
-max-height: 720px;
-}
-@media (max-width: 992px) {
-    .venoframe{
-        width: 640px;
-        height: 480px;
-    }
-    .figlio{
-    max-height: 480px;
-    }
-}
-@media (max-width: 767px) {
-    .venoframe{
-        width: 420px;
-        height: 315px;
-    }
-    .figlio{
-    max-height: 315px;
-    }
-}
-@media (max-width: 460px) {
-    .vbox-inline{
-        width: 100%;
-    }
 
-    .venoframe{
-        width: 100%;
-        height: 260px;
-    }
-    .figlio{
-    max-height: 260px;
-    }
-}
 
 /* ------- PLease do NOT edit this! (or do it at your own risk) ------ */
 .vbox-container{
